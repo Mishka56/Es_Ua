@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Es Ua</title>
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
 		integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,31 +16,108 @@
 
 	<header class="header">
 
-		<div class="header-container">
+		<div class="container header-container">
 
-			<a href="./index.html">
-				<svg class="header-logo" width="14" height="14">
-					<use href=""></use>
-				</svg>
-			</a>
+			<div class="header-left">
+				<div class="mob-menu is open">
+					<button type="button" class="mob-menu-btn">
+						<svg class="open-menu-icon" width="14" height="14">
+							<use href=""></use>
+						</svg>
+					</button>
 
-			<button type="button" class="menu-button-mobile">
-				<svg class="open-menu-icon" width="14" height="14">
-					<use href=""></use>
-				</svg>
-			</button>
+					<div class="mob-menu-category">
+						<ul class="mob-menu-category-list">
+							<li class="mob-menu-category-item">
+								<a class="mob-menu-sales-link" href="">Акційні пропозиції</a>
+							</li>
+							<li class="mob-menu-category-item">
+								<button class="mob-menu-category-btn" type="button">Ручний інструмент</button>
+							</li>
+							<li class="mob-menu-category-item">
+								<button class="mob-menu-category-btn" type="button">Витратні матеріали</button>
+							</li>
+							<li class="mob-menu-category-item">
+								<button class="mob-menu-category-btn" type="button">Пневмоінструмент</button>
+							</li>
+							<li class="mob-menu-category-item">
+								<button class="mob-menu-category-btn" type="button">Верстати та обладнання</button>
+							</li>
+							<li class="mob-menu-category-item">
+								<button class="mob-menu-category-btn" type="button">Засоби індивідуального
+									захисту</button>
+							</li>
+							<li class="mob-menu-category-item">
+								<button class="mob-menu-category-btn" type="button">Ящики та сумки для
+									інструментів</button>
+							</li>
+							<li class="mob-menu-category-item">
+								<button class="mob-menu-category-btn" type="button">Електроінструменти</button>
+							</li>
+							<li class="mob-menu-category-item">
+								<button class="mob-menu-category-btn" type="button">Садова техніка</button>
+							</li>
+						</ul>
+					</div>
 
-			<ul class="header-button-list">
-				<li class="header-button-item">
+					<div class="mob-menu-info">
+						<ul class="mob-menu-info-list">
+							<li class="mob-menu-info-item">
+								<a class="mob-menu-info-link" href="">Розпродаж</a>
+							</li>
+							<li class="mob-menu-info-item">
+								<a class="mob-menu-info-link" href="">Доставка</a>
+							</li>
+							<li class="mob-menu-info-item">
+								<a class="mob-menu-info-link" href="">Сервіс</a>
+							</li>
+							<li class="mob-menu-info-item">
+								<a class="mob-menu-info-link" href="">Оплата</a>
+							</li>
+							<li class="mob-menu-info-item">
+								<a class="mob-menu-info-link" href="">Про Компанію</a>
+							</li>
+						</ul>
+					</div>
 
-				</li>
-				<li class="header-button-item">
+					<div class="mob-menu-account-container">
+						<a class="mob-menu-account-link" href="">Вхід для клієнтів</a>
+					</div>
 
-				</li>
-				<li class="header-button-item">
+				</div>
 
-				</li>
-			</ul>
+				<button type="button" class="search-btn">
+					<svg class="search-btn-icon" width="14" height="14">
+						<use href=""></use>
+					</svg>
+				</button>
+			</div>
+
+			<div class="header-center">
+				<a href="./index.html">
+					<svg class="header-logo" width="14" height="14">
+						<use href=""></use>
+					</svg>
+				</a>
+			</div>
+
+			<div class="header-right">
+				<a href="">
+					<button class="favorite-btn" type="button">
+						<svg class="favorite-btn-icon">
+							<use href=""></use>
+						</svg>
+					</button>
+				</a>
+
+				<a href="">
+					<button class="backet-btn" type="button">
+						<svg class="backet-btn-icon">
+							<use href=""></use>
+						</svg>
+					</button>
+				</a>
+			</div>
 
 		</div>
 
@@ -49,7 +127,7 @@
 
 		<section class="about-us-section">
 
-			<div class="about-us-container">
+			<div class="container">
 
 				<h2 class="about-us-name">Euroservice_ua</h2>
 				<h3>Tools/Accessory</h3>
@@ -61,7 +139,7 @@
 
 		<section class="banner-section">
 
-			<div class="banner-container">
+			<div class="container">
 
 				<h2 class="banner-title">Пропозиції</h2>
 				<a href="index.html">
@@ -75,7 +153,7 @@
 
 		<section class="shares-section">
 
-			<div class="shares-container">
+			<div class="container">
 
 				<h2 class="shares-title">Акції</h2>
 
@@ -225,7 +303,7 @@
 
 		<section class="brands-section">
 
-			<div class="brands-container">
+			<div class="container">
 
 				<h2 class="brands-title">Бренди</h2>
 				<ul class="brands-list">
@@ -295,8 +373,8 @@
 				</div>
 
 			</div>
-		</section>
 
+		</section>
 
 	</main>
 
