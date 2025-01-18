@@ -5,7 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Es Ua</title>
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Roboto:wdth,wght@75..100,100..900&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
 		integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,391 +22,392 @@
 
 		<div class="container header-container">
 
-			<div class="header-left">
-				<button type="button" class="mob-menu-btn">
-					<svg class="open-menu-icon" width="14" height="14">
-						<use href=""></use>
-					</svg>
-				</button>
-				<!-- <div class="mob-menu is open">
-					<div class="mob-menu-category">
-						<ul class="mob-menu-category-list">
-							<li class="mob-menu-category-item">
-								<a class="mob-menu-sales-link" href="">Акційні пропозиції</a>
-							</li>
-							<li class="mob-menu-category-item">
-								<button class="mob-menu-category-btn" type="button">Ручний інструмент</button>
-								<ul class="mob-submenu-list">
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Шарнірно-губцевий інструмент</a>
+			<nav class="header-nav">
+				<ul class="header-nav-list">
+					<li class="header-nav-item">
+						<button type="button" class="mob-menu-btn">
+							<svg class="open-menu-icon" width="14" height="14">
+								<use href=""></use>
+							</svg>
+						</button>
+					</li>
+					<!-- <div class="mob-menu is open">
+							<div class="mob-menu-category">
+								<ul class="mob-menu-category-list">
+									<li class="mob-menu-category-item">
+										<a class="mob-menu-sales-link" href="">Акційні пропозиції</a>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Труборізи ручні</a>
+									<li class="mob-menu-category-item">
+										<button class="mob-menu-category-btn" type="button">Ручний інструмент</button>
+										<ul class="mob-submenu-list">
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Шарнірно-губцевий інструмент</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Труборізи ручні</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Ножівки та пили</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Гайкові ключі</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Головки торцеві та набори</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Викрутки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Вимірювальний інструмент</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Ударний ручний інструмент</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Тріскачки, подовжувачі, воротки, кардани</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Струбцини</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Ножі</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Ножиці</a>
+											</li>
+										</ul>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Ножівки та пили</a>
+									<li class="mob-menu-category-item">
+										<button class="mob-menu-category-btn" type="button">Витратні матеріали</button>
+										<ul class="mob-submenu-list">
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Насадки та біти</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Свердла по металу</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Бури по бетону</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Свердла по дереву</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Свердла по склу та плитці</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Коронки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Алмазні коронки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Пиляльні полотна</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Диски та чашки алмазні</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Папір шліфувальний</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Диски абразивні</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Диски по дереву</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Долота та піки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Перехідники та утримувачі для біт</a>
+											</li>
+										</ul>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Гайкові ключі</a>
+									<li class="mob-menu-category-item">
+										<button class="mob-menu-category-btn" type="button">Пневмоінструмент</button>
+										<ul class="mob-submenu-list">
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Компресори</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Шланги для пневмоінструмента</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Фітинги для пневмоінструмента</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Продування, підкачка, змащування</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Пневмофарбопульти</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Пневмошліфмашини</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Пневмогайкокрути</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Пневмодрилі</a>
+											</li>
+										</ul>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Головки торцеві та набори</a>
+									<li class="mob-menu-category-item">
+										<button class="mob-menu-category-btn" type="button">Верстати та обладнання</button>
+										<ul class="mob-submenu-list">
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Зварювальне обладнання</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Верстати свердлильні</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Віброплити</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Затиральні машини</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Плиткорізи</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Генератори</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Заточувальні верстати</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Верстаки</a>
+											</li>
+										</ul>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Викрутки</a>
+									<li class="mob-menu-category-item">
+										<button class="mob-menu-category-btn" type="button">Засоби індивідуального
+											захисту</button>
+										<ul class="mob-submenu-list">
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Окуляри та маски</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Рукавиці робочі</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Спецодяг</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Наколінники</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Робоче взуття</a>
+											</li>
+										</ul>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Вимірювальний інструмент</a>
+									<li class="mob-menu-category-item">
+										<button class="mob-menu-category-btn" type="button">Ящики та сумки для
+											інструментів</button>
+										<ul class="mob-submenu-list">
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Набори ящиків</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Ящики</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Пояси та сумки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Візки інструментальні</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Аксесуари</a>
+											</li>
+										</ul>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Ударний ручний інструмент</a>
+									<li class="mob-menu-category-item">
+										<button class="mob-menu-category-btn" type="button">Електроінструменти</button>
+										<ul class="mob-submenu-list">
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Дрилі алмазного свердління</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Дрилі та шурупокрути</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Гвинтокрути та гайковерти</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Акумулятори</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Зарядні пристрої</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Перфоратори</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Кутові та відрізні шліфмашини</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">РУбанки та фрезери</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Лобзики</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Пили</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Степлери та цвяхозабивні пістолети</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Різанки для труб</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Багатофункціональний інструмент</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Кабелерізи акумуляторні</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Гідравлічні інструменти</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Вимірювальні інструменти</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Будівельні інструменти</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Заклепочники</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Спеціальні інструменти</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Радіоприймачі та колонки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">пістолети для змащення та герметика</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Будівельні фени</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Ліхтарі</a>
+											</li>
+										</ul>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Тріскачки, подовжувачі, воротки, кардани</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Струбцини</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Ножі</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Ножиці</a>
+									<li class="mob-menu-category-item">
+										<button class="mob-menu-category-btn" type="button">Садова техніка</button>
+										<ul class="mob-submenu-list">
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Аератори</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Газонокосарки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Культиватори</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Ланцюгові пили</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Повітродувки, садові пилосмоки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Кущорізи</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Мотокоси, тримери</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Подрібнювачі</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Мотобури</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Аксесуари до садової техніки</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Обприскувачі</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Садові насоси</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Мотопомпи</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Дровоколи</a>
+											</li>
+											<li class="mob-submenu-item">
+												<a class="mob-submenu-link" href="">Мийки високого тиску</a>
+											</li>
+										</ul>
 									</li>
 								</ul>
-							</li>
-							<li class="mob-menu-category-item">
-								<button class="mob-menu-category-btn" type="button">Витратні матеріали</button>
-								<ul class="mob-submenu-list">
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Насадки та біти</a>
+							</div>
+							<div class="mob-menu-info">
+								<ul class="mob-menu-info-list">
+									<li class="mob-menu-info-item">
+										<a class="mob-menu-info-link" href="">Розпродаж</a>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Свердла по металу</a>
+									<li class="mob-menu-info-item">
+										<a class="mob-menu-info-link" href="">Доставка</a>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Бури по бетону</a>
+									<li class="mob-menu-info-item">
+										<a class="mob-menu-info-link" href="">Сервіс</a>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Свердла по дереву</a>
+									<li class="mob-menu-info-item">
+										<a class="mob-menu-info-link" href="">Оплата</a>
 									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Свердла по склу та плитці</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Коронки</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Алмазні коронки</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Пиляльні полотна</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Диски та чашки алмазні</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Папір шліфувальний</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Диски абразивні</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Диски по дереву</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Долота та піки</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Перехідники та утримувачі для біт</a>
+									<li class="mob-menu-info-item">
+										<a class="mob-menu-info-link" href="">Про Компанію</a>
 									</li>
 								</ul>
-							</li>
-							<li class="mob-menu-category-item">
-								<button class="mob-menu-category-btn" type="button">Пневмоінструмент</button>
-								<ul class="mob-submenu-list">
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Компресори</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Шланги для пневмоінструмента</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Фітинги для пневмоінструмента</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Продування, підкачка, змащування</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Пневмофарбопульти</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Пневмошліфмашини</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Пневмогайкокрути</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Пневмодрилі</a>
-									</li>
-								</ul>
-							</li>
-							<li class="mob-menu-category-item">
-								<button class="mob-menu-category-btn" type="button">Верстати та обладнання</button>
-								<ul class="mob-submenu-list">
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Зварювальне обладнання</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Верстати свердлильні</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Віброплити</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Затиральні машини</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Плиткорізи</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Генератори</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Заточувальні верстати</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Верстаки</a>
-									</li>
-								</ul>
-							</li>
-							<li class="mob-menu-category-item">
-								<button class="mob-menu-category-btn" type="button">Засоби індивідуального
-									захисту</button>
-								<ul class="mob-submenu-list">
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Окуляри та маски</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Рукавиці робочі</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Спецодяг</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Наколінники</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Робоче взуття</a>
-									</li>
-								</ul>
-							</li>
-							<li class="mob-menu-category-item">
-								<button class="mob-menu-category-btn" type="button">Ящики та сумки для
-									інструментів</button>
-								<ul class="mob-submenu-list">
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Набори ящиків</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Ящики</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Пояси та сумки</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Візки інструментальні</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Аксесуари</a>
-									</li>
-								</ul>
-							</li>
-							<li class="mob-menu-category-item">
-								<button class="mob-menu-category-btn" type="button">Електроінструменти</button>
-								<ul class="mob-submenu-list">
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Дрилі алмазного свердління</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Дрилі та шурупокрути</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Гвинтокрути та гайковерти</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Акумулятори</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Зарядні пристрої</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Перфоратори</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Кутові та відрізні шліфмашини</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">РУбанки та фрезери</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Лобзики</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Пили</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Степлери та цвяхозабивні пістолети</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Різанки для труб</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Багатофункціональний інструмент</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Кабелерізи акумуляторні</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Гідравлічні інструменти</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Вимірювальні інструменти</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Будівельні інструменти</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Заклепочники</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Спеціальні інструменти</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Радіоприймачі та колонки</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">пістолети для змащення та герметика</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Будівельні фени</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Ліхтарі</a>
-									</li>
-								</ul>
-							</li>
-							<li class="mob-menu-category-item">
-								<button class="mob-menu-category-btn" type="button">Садова техніка</button>
-								<ul class="mob-submenu-list">
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Аератори</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Газонокосарки</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Культиватори</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Ланцюгові пили</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Повітродувки, садові пилосмоки</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Кущорізи</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Мотокоси, тримери</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Подрібнювачі</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Мотобури</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Аксесуари до садової техніки</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Обприскувачі</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Садові насоси</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Мотопомпи</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Дровоколи</a>
-									</li>
-									<li class="mob-submenu-item">
-										<a class="mob-submenu-link" href="">Мийки високого тиску</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
+							</div>
+							<div class="mob-menu-account-container">
+								<a class="mob-menu-account-link" href="">Вхід для клієнтів</a>
+							</div>
+						</div>  -->
+					<li class="header-nav-item">
+						<button type="button" class="search-btn">
+							<svg class="search-btn-icon" width="14" height="14">
+								<use href=""></use>
+							</svg>
+						</button>
+					</li>
+				</ul>
 
-					<div class="mob-menu-info">
-						<ul class="mob-menu-info-list">
-							<li class="mob-menu-info-item">
-								<a class="mob-menu-info-link" href="">Розпродаж</a>
-							</li>
-							<li class="mob-menu-info-item">
-								<a class="mob-menu-info-link" href="">Доставка</a>
-							</li>
-							<li class="mob-menu-info-item">
-								<a class="mob-menu-info-link" href="">Сервіс</a>
-							</li>
-							<li class="mob-menu-info-item">
-								<a class="mob-menu-info-link" href="">Оплата</a>
-							</li>
-							<li class="mob-menu-info-item">
-								<a class="mob-menu-info-link" href="">Про Компанію</a>
-							</li>
-						</ul>
-					</div>
+				<div class="header-logo-container">
+					<a href="./index.html">
+						<img class="header-logo-svg" src="./Assets resourse/Images/logo/Group 31.png" width="38"
+							height="24">
+						</img>
+					</a>
+				</div>
 
-					<div class="mob-menu-account-container">
-						<a class="mob-menu-account-link" href="">Вхід для клієнтів</a>
-					</div>
-
-				</div>  -->
-
-				<button type="button" class="search-btn">
-					<svg class="search-btn-icon" width="14" height="14">
-						<use href=""></use>
-					</svg>
-				</button>
-			</div>
-
-			<div class="header-center">
-				<a href="./index.html">
-					<svg class="header-logo" width="14" height="14">
-						<use href=""></use>
-					</svg>
-				</a>
-			</div>
-
-			<div class="header-right">
-				<a href="">
-					<button class="favorite-btn" type="button">
-						<svg class="favorite-btn-icon" width="14" height="14">
+				<ul class="header-nav-list">
+					<li class="header-nav-item">
+						<a href="" class="favorite-btn>
+									<svg class=" favorite-btn-icon" width="14" height="14">
 							<use href=""></use>
-						</svg>
-					</button>
-				</a>
-
-				<a href="">
-					<button class="backet-btn" type="button">
-						<svg class="backet-btn-icon" width="14" height="14">
-							<use href=""></use>
-						</svg>
-					</button>
-				</a>
-			</div>
+							</svg>
+						</a>
+					</li>
+					<li class="header-nav-item">
+						<a href="" class="backet-btn">
+							<svg class="backet-btn-icon" width="14" height="14">
+								<use href=""></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
 
 		</div>
 
@@ -414,10 +419,12 @@
 
 			<div class="container">
 
-				<h2 class="about-us-name">Euroservice_ua</h2>
-				<h3>Tools/Accessory</h3>
-				<h3>Інтернет-магазин будівельних інструментів та садової техніки</h3>
-				<a class="about-us-phone" href="tel:+380000000000">+38(000) 00 000 00</a>
+				<div class="about-us-container">
+					<h2 class="about-us-name">Euroservice_ua</h2>
+					<p class="about-us-text">Tools/Accessory</p>
+					<p class="about-us-info">Інтернет-магазин будівельних інструментів та садової техніки</p>
+					<a class="about-us-phone" href="tel:+380000000000">+38(000) 00 000 00</a>
+				</div>
 			</div>
 
 		</section>
@@ -425,12 +432,9 @@
 		<section class="banner-section">
 
 			<div class="container">
-
-				<h2 class="banner-title">Пропозиції</h2>
 				<a href="index.html">
-					<img class="banner-img" src="" alt="banner1" width="300">
+					<img class="banner-img" src="" alt="banner1" width="296" height="124">
 				</a>
-
 			</div>
 
 		</section>
