@@ -85,7 +85,7 @@ img {
 	padding-bottom: 8px;
 	padding-left: 56px;
 	padding-right: 56px;
-	margin: 0 16px;
+	margin: 0 auto;
 	margin-bottom: 16px;
 }
 
@@ -128,14 +128,18 @@ img {
 }
 
 .banner-section {
-	background-color: #fff;
+	padding: 0;
 	margin-bottom: 16px;
+}
+
+.banner-section .container {
+	padding: 0;
 }
 
 .shares-section {
 	background-color: #263f2a;
 	max-width: 288px;
-	margin: 0 16px;
+	margin: 0 auto;
 	padding: 16px 12px;
 }
 
