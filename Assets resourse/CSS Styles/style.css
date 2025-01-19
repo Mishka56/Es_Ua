@@ -51,7 +51,7 @@ img {
 .container {
 	max-width: 320px;
 	margin: 0 auto;
-	/* padding: 0 16px; */
+	padding: 0 16px;
 }
 
 .header {
@@ -85,8 +85,8 @@ img {
 	padding-bottom: 8px;
 	padding-left: 56px;
 	padding-right: 56px;
+	margin: 0 auto;
 	margin-bottom: 16px;
-	margin-left: 16px;
 }
 
 .about-us-container {
@@ -135,7 +135,7 @@ img {
 .shares-section {
 	background-color: #263f2a;
 	max-width: 288px;
-	margin-left: 16px;
+	margin: 0 auto;
 	padding: 16px 12px;
 }
 
@@ -152,7 +152,7 @@ img {
 
 .shares-cards-container {
 	min-width: 126px;
-	background-color: #C0C0C0;
+	background-color: #c0c0c0;
 	min-height: 162px;
 }
 
