@@ -51,8 +51,7 @@ img {
 .container {
 	max-width: 320px;
 	margin: 0 auto;
-	padding: 0 16px;
-
+	/* padding: 0 16px; */
 }
 
 .header {
@@ -84,13 +83,15 @@ img {
 	background-color: #3b3838;
 	padding-top: 10px;
 	padding-bottom: 8px;
+	padding-left: 56px;
+	padding-right: 56px;
 	margin-bottom: 16px;
+	margin-left: 16px;
 }
 
 .about-us-container {
 	text-align: center;
 }
-
 
 .about-us-name {
 	font-family: "Inter", sans-serif;
@@ -98,7 +99,6 @@ img {
 	font-size: 10px;
 	line-height: 1.2;
 	color: #fff;
-	text-align: center;
 	margin-bottom: 8px;
 }
 
@@ -108,9 +108,7 @@ img {
 	font-size: 5px;
 	line-height: 1.4;
 	color: #fff;
-	text-align: center;
 	margin-bottom: 8px;
-
 }
 
 .about-us-info {
@@ -119,7 +117,6 @@ img {
 	font-size: 6px;
 	line-height: 1.4;
 	color: #fff;
-	text-align: center;
 }
 
 .about-us-phone {
@@ -128,11 +125,44 @@ img {
 	font-size: 6px;
 	line-height: 1.4;
 	color: #fff;
+}
+
+.banner-section {
+	background-color: #fff;
+	margin-bottom: 16px;
+}
+
+.shares-section {
+	background-color: #263f2a;
+	max-width: 288px;
+	margin-left: 16px;
+	padding: 16px 12px;
+}
+
+.shares-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.shares-cards-container {
+	min-width: 126px;
+	background-color: #C0C0C0;
+	min-height: 162px;
 }
 
 .shares-list {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	gap: 12px;
+}
+
+.shares-item {
+	width: calc((100% - 12px) / 2);
 }
