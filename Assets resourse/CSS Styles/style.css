@@ -141,14 +141,14 @@ img {
 
 .banner-section {
 	width: 100%;
-	/* min-width: 320px; */
+	min-width: 320px;
 	margin-bottom: 16px;
-	overflow: hidden;
+	/* overflow: hidden; */
 	background-color: #fff;
 	background-image: url(../Images/banner-general/Group\ 61.jpg);
 	background-repeat: no-repeat;
 	padding: 62px 0;
-	background-size: cover;
+	background-size: auto ;
 	background-position: center;
 }
 
