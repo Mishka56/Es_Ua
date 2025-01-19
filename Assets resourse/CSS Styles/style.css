@@ -1,7 +1,7 @@
 body {
 	font-family: "Inter", "Roboto", sans-serif;
 	margin: 0;
-	background-color: #ba0000;
+	background-color: #c6c1c1;
 	padding: 0;
 }
 
@@ -60,7 +60,6 @@ img {
 	background-color: #1d1d1d;
 	margin-bottom: 16px;
 	padding: 12px;
-	
 }
 
 .header-nav-list {
@@ -75,16 +74,19 @@ img {
 }
 
 .header-container {
-	width: 100vw;
-	max-width: 320px;
+	max-width: 100%;
 	margin: 0 auto;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
 
-.header-logo-container {
-	/* margin: 0 73px; */
+.header .container {
+	padding: 0;
+}
+
+.header-logo-svg {
+	display: inline-block;
 }
 
 .about-us-section {
@@ -139,17 +141,26 @@ img {
 
 .banner-section {
 	width: 100%;
-	min-width: 320px;
+	/* min-width: 320px; */
 	margin-bottom: 16px;
 	overflow: hidden;
 	background-color: #fff;
+	background-image: url(../Images/banner-general/Group\ 61.jpg);
+	background-repeat: no-repeat;
+	padding: 62px 0;
+	background-size: cover;
+	background-position: center;
 }
 
 .shares-section {
-	background-color: #263f2a;
+	background-color: #3b3838;
 	max-width: 100%;
 	padding: 16px 12px;
 	margin: 0 16px 16px;
+}
+
+.shares-section .container {
+	padding: 0;
 }
 
 .shares-title {
@@ -160,7 +171,7 @@ img {
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: #fff;
-	margin-bottom: 10px;
+	margin-bottom: 16px;
 }
 
 .shares-cards-container {
@@ -174,8 +185,21 @@ img {
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 12px;
+	margin-bottom: 16px;
 }
 
 .shares-item {
 	width: calc((100% - 12px) / 2);
+}
+
+.shares-more-link {
+	display: block;
+	font-family: "Roboto", sans-serif;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 1.4;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	text-align: center;
+	color: #c0c0c0;
 }
