@@ -1,7 +1,7 @@
 body {
 	font-family: "Inter", "Roboto", sans-serif;
 	margin: 0;
-	background-color: #c6c1c1;
+	background-color: #ba0000;
 	padding: 0;
 }
 
@@ -143,12 +143,12 @@ img {
 	width: 100%;
 	min-width: 320px;
 	margin-bottom: 16px;
-	/* overflow: hidden; */
+	overflow: hidden;
 	background-color: #fff;
 	background-image: url(../Images/banner-general/Group\ 61.jpg);
 	background-repeat: no-repeat;
 	padding: 62px 0;
-	background-size: auto ;
+	background-size: auto;
 	background-position: center;
 }
 
@@ -202,4 +202,62 @@ img {
 	text-decoration-skip-ink: none;
 	text-align: center;
 	color: #c0c0c0;
+}
+
+.brands-section {
+	background-color: #3b3838;
+	max-width: 100%;
+	padding: 10px 12px;
+	margin: 0 16px;
+	text-align: center;
+}
+
+.brands-section .container {
+	padding: 0;
+}
+
+.brands-title {
+	font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #fff;
+margin-bottom: 10px;
+}
+
+.brands-container {
+	background-color: #c0c0c0;
+	min-width: 50px;
+	min-height: 40px;
+}
+
+.brands-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 14px 12px;
+}
+
+
+
+.brands-link {
+	display: block;
+}
+
+.brands-item {
+	width: calc((100% - 24px) / 3);
+}
+
+.all-brands-link {
+	font-family: "Inter", sans-serif;
+font-weight: 600;
+font-size: 8px;
+line-height: 3;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: center;
+color: rgba(234, 233, 238, 0.8);
+margin-top: 10px;
 }
