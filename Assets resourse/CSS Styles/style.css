@@ -218,12 +218,12 @@ img {
 
 .brands-title {
 	font-family: "Inter", sans-serif;
-font-weight: 600;
-font-size: 12px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #fff;
-margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: #fff;
+	margin-bottom: 10px;
 }
 
 .brands-container {
@@ -238,9 +238,8 @@ margin-bottom: 10px;
 	justify-content: center;
 	align-items: center;
 	gap: 14px 12px;
+	margin-bottom: 10px;
 }
-
-
 
 .brands-link {
 	display: block;
@@ -252,12 +251,12 @@ margin-bottom: 10px;
 
 .all-brands-link {
 	font-family: "Inter", sans-serif;
-font-weight: 600;
-font-size: 8px;
-line-height: 3;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-text-align: center;
-color: rgba(234, 233, 238, 0.8);
-margin-top: 10px;
+	font-weight: 800;
+	font-size: 12px;
+	line-height: 1.4;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	text-align: center;
+	color: rgba(234, 233, 238, 0.8);
+
 }
