@@ -170,12 +170,19 @@ button {
 	overflow: hidden;
 	background-color: #fff;
 	background-image: linear-gradient(rgba(30, 24, 35, 0.2), rgba(30, 24, 35, 0.2)),
-		url(../Images/banner-general/Group\ 61.jpg);
+		url(../Images/banner-general/test-banner.jpg);
 
 	background-repeat: no-repeat;
 	padding: 62px 0;
 	background-size: contain;
 	background-position: center center;
+}
+
+@media screen and (min-resolution: 192dpi) {
+	.banner-section {
+		background-image: linear-gradient(rgba(30, 24, 35, 0.2), rgba(30, 24, 35, 0.2)),
+		url(../Images/banner-general/test-banner@2x.jpg);
+	}
 }
 
 
@@ -254,11 +261,6 @@ button {
 	margin-bottom: 10px;
 }
 
-.brands-container {
-	background-color: #c0c0c0;
-	min-width: 50px;
-	min-height: 40px;
-}
 
 .brands-list {
 	display: flex;
@@ -279,7 +281,6 @@ button {
 
 .brands-img {
 	min-width: 100%;
-	height: ;
 }
 
 .all-brands-link {
