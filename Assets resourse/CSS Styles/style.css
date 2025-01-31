@@ -210,13 +210,12 @@ button {
 .shares-info-container {
 	background-color: #c0c0c0;
 	min-width: 120px;
-	min-height: 120px;
+	min-height: 150px;
 	padding: 5px;
 }
 
 .shares-img {
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 }
 
 .shares-price-span {
