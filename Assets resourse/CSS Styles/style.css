@@ -171,11 +171,13 @@ button {
 	background-color: #fff;
 	background-image: linear-gradient(rgba(30, 24, 35, 0.2), rgba(30, 24, 35, 0.2)),
 		url(../Images/banner-general/Group\ 61.jpg);
+
 	background-repeat: no-repeat;
 	padding: 62px 0;
-	background-size: auto;
+	background-size: contain;
 	background-position: center center;
 }
+
 
 .shares-section {
 	background-color: #3b3838;
@@ -273,6 +275,11 @@ button {
 
 .brands-item {
 	width: calc((100% - 24px) / 3);
+}
+
+.brands-img {
+	min-width: 100%;
+	height: ;
 }
 
 .all-brands-link {
