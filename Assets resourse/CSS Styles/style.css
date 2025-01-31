@@ -181,10 +181,9 @@ button {
 @media screen and (min-resolution: 192dpi) {
 	.banner-section {
 		background-image: linear-gradient(rgba(30, 24, 35, 0.2), rgba(30, 24, 35, 0.2)),
-		url(../Images/banner-general/test-banner@2x.jpg);
+			url(../Images/banner-general/test-banner@2x.jpg);
 	}
 }
-
 
 .shares-section {
 	background-color: #3b3838;
@@ -208,22 +207,63 @@ button {
 	margin-bottom: 16px;
 }
 
-.shares-cards-container {
-	min-width: 50%;
+.shares-info-container {
 	background-color: #c0c0c0;
-	min-height: 162px;
+	min-width: 120px;
+	min-height: 120px;
+	padding: 5px;
+}
+
+.shares-img {
+	margin: 0 auto;
+	
+}
+
+.shares-price-span {
+	text-decoration: line-through;
+	
 }
 
 .shares-list {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	justify-content: center;
 	gap: 12px;
 	margin-bottom: 16px;
 }
 
 .shares-item {
+	min-height: 200px;
 	width: calc((100% - 12px) / 2);
+	background-color: #fff;
+	;
+}
+
+.shares-info-basket-icon {
+	fill: #c0c0c0;
+	stroke: #1d1d1d;
+}
+
+.shares-info {
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #000;
+}
+
+.shares-price {
+	font-weight: 600;
+	font-size: 10px;
+	line-height: 1.2;
+	color: #000;
+}
+
+.shares-price-shares {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 1.25;
+	color: #ff8c01;
 }
 
 .shares-more-link {
@@ -260,7 +300,6 @@ button {
 	color: #fff;
 	margin-bottom: 10px;
 }
-
 
 .brands-list {
 	display: flex;
