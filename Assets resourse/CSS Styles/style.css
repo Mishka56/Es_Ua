@@ -91,8 +91,10 @@ button {
 	padding: 0;
 }
 
-.header-logo-svg {
-	display: inline-block;
+
+.web-logo-svg {
+	display: block;
+	text-align: center;
 }
 
 .open-menu-icon {
@@ -102,12 +104,12 @@ button {
 .open-menu-icon:hover,
 .open-menu-icon:focus {
 	fill: #ff4901;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .open-menu-icon:active {
 	fill: #a83406;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .search-btn-icon {
@@ -117,12 +119,12 @@ button {
 .search-btn-icon:hover,
 .search-btn-icon:focus {
 	fill: #ff4901;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .search-btn-icon:active {
 	fill: #a83406;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .favorite-btn-icon {
@@ -132,12 +134,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .favorite-btn-icon:hover,
 .favorite-btn-icon:focus {
 	fill: #ff4901;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .favorite-btn-icon:active {
 	fill: #a83406;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .basket-btn-icon {
@@ -146,14 +148,14 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .basket-btn-icon:hover,
-.favorite-btn-icon:focus {
+.basket-btn-icon:focus {
 	stroke: #ff4901;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .basket-btn-icon:active {
 	stroke: #a83406;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about-us-section {
@@ -255,6 +257,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #c0c0c0;
+	justify-content: space-between;
 	min-width: 120px;
 	min-height: 150px;
 	padding: 8px 6px;
@@ -262,9 +265,16 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .shares-info-btn-container {
 	display: flex;
-	flex-wrap: wrap;
-	/* column-gap: 90px; */
+	width: 100%;
 	align-self: flex-end;
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.shares-info-basket-icon {
+	display: block;
+	text-align: center;
+
 }
 
 .shares-info-list {
@@ -327,23 +337,23 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .shares-info-basket-icon:hover,
 .shares-info-basket-icon:focus {
 	stroke: #ff4901;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .shares-info-basket-icon:active {
 	stroke: #a83406;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .shares-info-favorite-icon:hover,
 .shares-info-favorite-icon:focus {
 	fill: #ff4901;
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .shares-info-favorite-icon:active {
 	fill: #a83406;
-	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .shares-more-link {
@@ -356,6 +366,18 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	text-decoration-skip-ink: none;
 	text-align: center;
 	color: #c0c0c0;
+}
+
+.shares-more-link:hover,
+.shares-more-link:focus {
+	color: #ff4901;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.shares-more-link:active {
+	color: #a83406;
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .brands-section {
@@ -411,6 +433,17 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	text-decoration-skip-ink: none;
 	text-align: center;
 	color: rgba(234, 233, 238, 0.8);
+}
+
+.all-brands-link:hover,
+.all-brands-link:focus {
+	color: #ff4901;
+	transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.all-brands-link:active {
+	color: #a83406;
+	transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
