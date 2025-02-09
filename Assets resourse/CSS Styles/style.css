@@ -45,8 +45,9 @@ button {
 	--webkit-tap-highlight-color: transparent;
 }
 
+
 button:active {
-	pointer-events: none;
+	pointer-events: auto;
 }
 
 .visually-hidden {
