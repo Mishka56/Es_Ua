@@ -340,11 +340,11 @@ button:active {
 .shares-info-item {
 	display: block;
 	width: 100%;
-	min-height: 40px;
+	min-height: 36px;
 }
 
 .shares-info-item:first-child {
-	min-height: 60px;
+	min-height: 64px;
 }
 
 .shares-info-basket-icon {
