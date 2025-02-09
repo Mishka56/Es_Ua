@@ -38,6 +38,15 @@ button {
 	cursor: pointer;
 	background: none;
 	border-color: transparent;
+	touch-action: manipulation;
+}
+
+button {
+	--webkit-tap-highlight-color: transparent;
+}
+
+button:active {
+	pointer-events: none;
 }
 
 .visually-hidden {
@@ -116,7 +125,7 @@ button {
 
 .open-menu-icon {
 	fill: #fff;
-	transition: all 0.1s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* .open-menu-icon:hover,
@@ -132,7 +141,7 @@ button {
 
 .search-btn-icon {
 	fill: #fff;
-	transition: all 0.1s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* .search-btn-icon:hover,
@@ -148,7 +157,7 @@ button {
 
 .favorite-btn-icon {
 	fill: #fff;
-	transition: all 0.1s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* .favorite-btn-icon:hover,
@@ -165,7 +174,7 @@ button {
 .basket-btn-icon {
 	fill: #1d1d1d;
 	stroke: #fff;
-	transition: all 0.1s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* .basket-btn-icon:hover,
@@ -299,8 +308,9 @@ button {
 
 .shares-info-list {
 	display: flex;
-	flex-wrap: wrap;
-	column-gap: 8px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
 }
 
 .shares-img {
@@ -321,20 +331,31 @@ button {
 }
 
 .shares-item {
+	align-self: flex-start;
 	min-height: 200px;
 	width: calc((100% - 12px) / 2);
 	background-color: #fff;
 }
 
+.shares-info-item {
+	display: block;
+	width: 100%;
+	min-height: 40px;
+}
+
+.shares-info-item:first-child {
+	min-height: 60px;
+}
+
 .shares-info-basket-icon {
 	fill: #c0c0c0;
 	stroke: #1d1d1d;
-	transition: all 0.1s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 .shares-info-favorite-icon {
 	fill: #1d1d1d;
-	transition: all 0.1s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 .shares-info {
@@ -347,16 +368,25 @@ button {
 }
 
 .shares-price {
+	display: block;
 	font-weight: 600;
 	font-size: 10px;
 	line-height: 1.2;
 	color: #000;
+	margin: 0;
+}
+
+.shares-price-container {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 15px;
 }
 
 .shares-price-shares {
-	font-weight: 500;
+	font-weight: bold;
 	font-size: 12px;
-	line-height: 1.25;
+	line-height: 1.2;
 	color: #ff8c01;
 }
 
@@ -392,7 +422,7 @@ button {
 	text-decoration-skip-ink: none;
 	text-align: center;
 	color: #c0c0c0;
-	transition: all 0.1s ease-in-out;
+	transition: color 0.3s ease-in-out;
 }
 
 /* .shares-more-link:hover,
@@ -403,7 +433,6 @@ button {
 
 .shares-more-link:active {
 	color: #a83406;
-	transform: scale(0.96);
 }
 
 .brands-section {
