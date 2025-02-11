@@ -40,9 +40,7 @@ button {
 	background: none;
 	border-color: transparent;
 	touch-action: manipulation;
-
 }
-
 
 .visually-hidden {
 	position: absolute;
@@ -120,7 +118,7 @@ button {
 
 .open-menu-icon {
 	fill: #fff;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* .open-menu-icon:hover,
@@ -129,6 +127,13 @@ button {
 		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	 */
+
+.open-menu-icon:focus {
+	fill: #ff4901;
+	transform: scale(0.96);
+	outline: none;
+}
+
 .open-menu-icon:active {
 	fill: #a83406;
 	transform: scale(0.96);
@@ -136,7 +141,7 @@ button {
 
 .search-btn-icon {
 	fill: #fff;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* .search-btn-icon:hover,
@@ -145,6 +150,13 @@ button {
 		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	 */
+
+.search-btn-icon:focus {
+	fill: #ff4901;
+	transform: scale(0.96);
+	outline: none;
+}
+
 .search-btn-icon:active {
 	fill: #a83406;
 	transform: scale(0.96);
@@ -152,7 +164,7 @@ button {
 
 .favorite-btn-icon {
 	fill: #fff;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 
 /* .favorite-btn-icon:hover,
@@ -160,6 +172,12 @@ button {
 		fill: #ff4901;
 		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	} */
+
+.favorite-btn-icon:focus {
+	fill: #ff4901;
+	transform: scale(0.96);
+	outline: none;
+}
 
 .favorite-btn-icon:active {
 	fill: #a83406;
@@ -177,6 +195,12 @@ button {
 		stroke: #ff4901;
 		transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	} */
+
+.basket-btn-icon:focus {
+	stroke: #ff4901;
+	transform: scale(0.96);
+	outline: none;
+}
 
 .basket-btn-icon:active {
 	stroke: #a83406;
@@ -297,7 +321,6 @@ button {
 	justify-content: space-between;
 }
 
-
 .shares-info-basket-icon {
 	display: block;
 	text-align: center;
@@ -394,6 +417,12 @@ button {
 		transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	} */
 
+.shares-info-basket-icon:focus {
+	stroke: #ff4901;
+	transform: scale(0.96);
+	outline: none;
+}
+
 .shares-info-basket-icon:active {
 	stroke: #a83406;
 	transform: scale(0.96);
@@ -405,6 +434,13 @@ button {
 		transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 	}
 	 */
+
+.shares-info-favorite-icon:focus {
+	fill: #ff4901;
+transform: scale(0.96);
+outline: none;
+}
+
 .shares-info-favorite-icon:active {
 	fill: #a83406;
 	transform: scale(0.96);
